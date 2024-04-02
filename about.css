@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(251, 248, 248);
+}
+header{
+    background: linear-gradient( rgb(255, 85, 0), orange);
+    padding: 2rem;
+    position: static;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    padding:1rem;
+}
+.navbar a{
+    display: flex;
+    font-size: 16px;
+}
+.navbar a:hover{
+    color: white;
+    border:solid 1px black;
+    background-color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 0 10px 0 10px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    border: solid 1px white;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 70px;
+}
+h1{
+    padding: 20px;
+    font-size: 45px;
+    font-family: Georgia;
+    animation: slide;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    color: red;
+
+}
+
+@keyframes slide{
+    from{ line-height: 3rem;
+    color: rgb(0, 195, 255);}
+    to{ line-height: 100%;
+    color: rgb(2, 175, 244);}
+    
+}
+p{
+    padding: 20px;
+}
+

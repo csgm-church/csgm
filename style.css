@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: tahoma;
+    font-weight: none;
+}
+
+body{
+    background: rgb(251, 248, 248);
+}
+header{
+    background:linear-gradient( rgb(255, 85, 0), orange),url(img/wrshp.jpeg);
+    padding:1rem;
+    position:sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header::after{
+    position: absolute;
+}
+.logo{
+    padding:1rem;
+    display: inline-block;
+}
+nav{
+    margin-right: 40px;
+}
+.navbar a{
+    font-size: 16px;
+}
+.navbar a:hover{
+    color: white;
+    border:solid 1px black;
+    background-color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: 0 5px 0 5px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    border: solid 1px white;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 70px;
+}
+.welcome{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: futura;
+    font-size: 3rem;
+    animation: slide;
+    animation-duration: 3s;
+    animation-delay: none;
+
+}
+
+@keyframes slide{
+    from{ line-height: 20rem;
+    color: red;}
+    to{ line-height: 4rem;
+    color: rgb(2, 175, 244);}
+    
+}
+
+.mountain{
+    color: rgb(255, 0, 89);
+    font-size: 30px;
+    padding: 30px;
+    background-color: rgb(238, 238, 238);
+    display: block;
+
+}
+.container1{
+    width: 100%;
+    height: 30rem;
+    margin-top: 3rem;
+}
+.float-image{
+    padding: 2rem;
+    width: 100%;
+
+
+
+
+}
+.wurp{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+.question-purpose { 
+    margin-top: 20px;
+    color: orangered;
+    list-style: disc;
+    display: block;
+}
+article{
+    padding: 1rem;
+    color: rgb(99, 97, 97);
+    line-height: 40px;
+}
+.fyg{
+
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: underline red;
+}
+.points {
+    display: block;
+    color: orangered;
+    border: none;
+    font-weight: 900;
+
+}
+
+.member{
+    padding: 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.officials{
+    margin: 50px;
+    border: solid 2px white;
+    padding: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 0 15px rgb(172, 90, 63);
+    display: inline-block;
+}
+h2{
+    font-size: 100px;
+    margin-top: 5rem;
+    color: white;
+    padding: 20px;
+    margin-bottom: 4rem;
+    text-align: center;
+
+}
+
+
+.p-icon{
+width: 200px;
+
+}
+
+.text .name{
+    font-weight: 900;
+    color: rgb(0, 98, 255);
+    width: 200px;
+    line-height: 100%;
+    font-size: 20px;
+}
+.text .title{
+    font-size: 14px;
+    font-style: italic;
+    color: orangered;
+    line-height: 15px;
+    margin-top: 3px;
+}
+.icon{
+    display: inline-block;
+}
+.notes p{
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 20px;
+}
+.info-contact p{
+    float: right;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    color: rgb(190, 190, 193);
+    font-style: italic;
+    margin-right: 10px;
+
+
+}
+.officiating{
+    padding-top: 20px;
+    padding-bottom: 120px;
+    padding-right: 40px;
+    padding-left: 5px;
+    background-color: rgb(245, 204, 132);
+}
